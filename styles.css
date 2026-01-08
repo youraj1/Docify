@@ -134,18 +134,22 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 5%;
-    max-width: 1400px;
-    margin: 2px auto;
-    position: relative;
+    padding: 9px 173px;
+    max-width: 1417px;
+    left: 13px;
+    top: -75px;
+    margin: 2px 0;
+    position: absolute;
     z-index: 100;
     background: linear-gradient(135deg, #4f46e5, #7c3aed, #2563eb);
     backdrop-filter: blur(13px);
     -webkit-backdrop-filter: blur(10px);
-    height: 56px;
-    gap: 469px;
+    height: 57px;
+    gap: 58px;
     border-radius: 4px;
+
 }
+
 
 .navbar::before {
     content: '';
@@ -486,9 +490,15 @@ body::before {
 }
 
 /* Mobile styles */
+
+
 @media (max-width: 768px) {
     .navbar {
+
         padding: 0.35rem 1rem;
+        margin: 3px 20px -104px;
+        gap: 0;
+
     }
 
     .mobile-menu {
