@@ -495,8 +495,9 @@ body::before {
 @media (max-width: 768px) {
     .navbar {
 
-        padding: 0.35rem 13rem;
-        margin: -7px -112px 0px;
+        padding: 0.35rem 16.50rem;
+        margin: -3px -70px 0px;
+        width: 0;
 
     }
 
