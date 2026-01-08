@@ -134,19 +134,20 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 9px 173px;
+    padding: 0px 220px;
     max-width: 1417px;
-    left: 13px;
-    top: -75px;
-    margin: 2px 0;
+    left: 115px;
+    top: -71px;
+    margin: 4px 3px;
     position: absolute;
     z-index: 100;
     background: linear-gradient(135deg, #4f46e5, #7c3aed, #2563eb);
     backdrop-filter: blur(13px);
     -webkit-backdrop-filter: blur(10px);
     height: 57px;
-    gap: 58px;
+    gap: 120px;
     border-radius: 4px;
+
 
 }
 
